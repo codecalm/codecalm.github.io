@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	font-size: 24px;
+	line-height: 1;
+	font-weight: 200;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+
+	background: #0072ff;
+	background: -webkit-linear-gradient(45deg, #00c6ff 10%, #0072ff 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(45deg, #00c6ff 10%, #0072ff 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(45deg, #00c6ff 10%, #0072ff 90%); /* IE10 */
+	background:      -o-linear-gradient(45deg, #00c6ff 10%, #0072ff 90%); /* Opera 11.10+ */
+	background:         linear-gradient(45deg, #00c6ff 10%, #0072ff 90%); /* W3C */
+
+	background-size: cover;
+
+}
+
+.wrap {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.info {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1;
+	font-weight: 200;
+}
+
+p {
+	font-weight: 200;
+	margin: 0;
+}
+
+.cs {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .6em;
+}
+
+@media (max-width: 768px){
+	body {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1200px){
+	body {
+		font-size: 33px;
+	}
+}
