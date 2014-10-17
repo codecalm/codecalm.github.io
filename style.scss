@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	font-size: 24px;
+	line-height: 1;
+	font-weight: 200;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+
+	background: #0072ff;
+	background: linear-gradient(135deg, #43cea2 10%, #185a9d 90%);
+
+	background-size: cover;
+
+}
+
+.wrap {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.info {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1;
+	font-weight: 200;
+}
+
+p {
+	font-weight: 200;
+	margin: 0;
+}
+
+.cs {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .6em;
+}
+
+@media (max-width: 768px){
+	body {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1200px){
+	body {
+		font-size: 33px;
+	}
+}
